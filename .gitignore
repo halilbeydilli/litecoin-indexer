@@ -1,0 +1,23 @@
+# Environment — NEVER commit real credentials
+.env
+.env.*
+!.env.example
+
+# Compiled binaries
+chain-indexer
+chain-indexer-*
+litecoin-indexer
+litecoin-indexer-*
+*.exe
+*.out
+
+# Go build cache
+vendor/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
