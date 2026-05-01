@@ -88,7 +88,7 @@ P2PKH address version bytes are auto-detected for these coins:
 
 ```bash
 git clone https://github.com/halilbeydilli/litecoin-indexer.git
-cd chain-indexer
+cd litecoin-indexer
 
 # Build (produces a single binary)
 go build -o chain-indexer ./cmd/indexer
@@ -250,7 +250,7 @@ ssh user@server "cd /opt/chain-indexer && ./chain-indexer"
 ### Project Structure
 
 ```
-chain-indexer-go/
+litecoin-indexer/
 ├── cmd/indexer/main.go          # Entry point, CLI flags, orchestration
 ├── internal/
 │   ├── config/config.go         # .env loading, global configuration
@@ -631,6 +631,7 @@ If this project saved you time or infrastructure cost, consider buying me a coff
 | Network | Address |
 |---------|---------|
 | **Bitcoin (BTC)** | `15LdNmHMesfckw3XmEj2dQkENCEuNwDWX8` |
+| **Litecoin (LTC)** | `LcVbjF9u3fktY5HPWTtky6NhQBJHwaTvZT` |
 | **Ethereum / BNB / USDT (ERC-20 / BEP-20)** | `0x405b04b771A586332C20532e97cffCA8F03AD38a` |
 
 ## License
